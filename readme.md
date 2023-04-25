@@ -8,7 +8,7 @@ Continuar o Modelo de Entidade-Relacionamento, que foi inciado nas duas primeira
 
 ## Resolução de problemas
 
-- Valor do Frete: Foi incluída a relação **contém** para ligar a entidade "Pedido" para a entidade "Valor Frete". Com a notação de 0 ou 1, já que no Pedido pode conter ou não o valor do frete. O "Valor Frete" não foi representado como atributo, pois por ser opcional ele não vai estar sempre presente na entidade Pedido.
+- Valor do Frete: Foi incluída a relação **contém** para ligar a entidade "Pedido" para a entidade "Valor Frete". Com a notação de 0 ou 1, já que no Pedido pode conter ou não o valor do frete. O "Valor Frete" não foi representado como atributo, pois por ser opcional ele não vai estar sempre presente na entidade Pedido. As outras informações sobre cálculo e endereços foram abstraídas do Diagrama, constando apenas o armazenamento do valor e sua relação opcional com o Pedido, conforme a interpretação feita a partir do que está no enunciado.
   <br>
 - Cupom de Desconto: Foi incluído como uma entidade e todos seus atributos foram detalhados. O atributo "Validade" foi notado como _composto_ contendo "Data Início" e "Data Fim". Foi estabelecido o seguinte relacionamento binário:
 
